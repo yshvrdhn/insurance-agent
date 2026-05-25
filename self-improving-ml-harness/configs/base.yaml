@@ -1,0 +1,36 @@
+# Base training config. The agent edits this (and search.yaml) to chase score.
+# Every other config `extends: base` and overrides a few keys.
+
+seed: 0
+
+dataset:
+  tier: tiny                     # tiny | small | full
+  path: data/bdd-tiny.lance      # built by scripts/download_bdd.py
+
+model:
+  name: tiny_cnn
+  width: 16                      # channels in the first conv block
+  depth: 2                       # number of conv->pool blocks
+  dropout: 0.0
+
+train:
+  lr: 0.001
+  weight_decay: 0.0
+  batch_size: 64
+  label_smoothing: 0.0
+  cosine_lr: false
+
+# Augmentation knobs (generic robustness). The foggy slice is rare and its cues
+# are washed out, so the biggest wins come from mining + up-weighting fog frames
+# (see harness/mining.py) and from capacity/regularization -- but these flips
+# help too.
+augment:
+  hflip: false
+  brightness_jitter: 0.0
+  contrast_jitter: 0.0
+  per_image_norm: false
+
+# Fixed compute budget. Training stops at the first limit hit.
+budget:
+  max_epochs: 12
+  max_seconds: 60

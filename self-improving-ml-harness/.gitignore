@@ -1,0 +1,29 @@
+# Data subsets land here (synthetic or downloaded BDD). Never committed,
+# but keep the directory so the documented layout exists on a fresh clone.
+data/*
+!data/.gitkeep
+
+# Run artifacts
+runs/
+*.lance
+results.tsv
+.mlh_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Notebook execution side-artifacts (figures are embedded in the .ipynb itself)
+notebooks/_executed/
+notebooks/*.png
+notebooks/results.tsv
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

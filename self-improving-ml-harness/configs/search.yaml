@@ -1,0 +1,22 @@
+# Hyperparameter-search config (used from Ch. 11 onward, with Ray Tune).
+# `extends: base` inherits everything above and adds a search space.
+extends: base
+
+mining:
+  enabled: true
+  strategy: fog_knn
+  k: 8
+
+# Ray Tune-style search space. The loop's SearchProposer ignores this; the Tune
+# notebooks read it to build the search.
+search:
+  algorithm: asha            # asha | pbt | bohb
+  num_samples: 16
+  max_concurrent: 4
+  metric: score              # the evaluator's official score
+  mode: max
+  space:
+    train.lr:           { dist: loguniform, low: 1.0e-4, high: 5.0e-3 }
+    train.weight_decay: { dist: loguniform, low: 1.0e-6, high: 1.0e-3 }
+    model.width:        { dist: choice, values: [16, 24, 32, 48] }
+    mining.boost:       { dist: uniform, low: 2.0, high: 9.0 }
