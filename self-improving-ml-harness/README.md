@@ -1,7 +1,8 @@
-# Self-Improving ML Harness
+# Agentic Flywheel
 
 A hands-on book on **MLOps for the age of agents** — building self-improving ML
-systems with an LLM-driven harness around a real computer-vision workload.
+systems with an LLM-driven loop around a real computer-vision workload. Each turn
+of the loop spins the next one faster: propose → train → score → keep or revert.
 
 The book walks through building an autonomous loop that proposes changes to a
 vision pipeline, trains under a fixed compute budget, evaluates against an

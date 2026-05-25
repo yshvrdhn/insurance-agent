@@ -1,11 +1,11 @@
 [project]
-name = "self-improving-ml-harness"
+name = "agentic-flywheel"
 version = "0.1.0"
-description = "A self-improving ML harness: an LLM-driven AutoResearch loop around a computer-vision workload."
+description = "Agentic Flywheel: an LLM-driven, self-improving MLOps loop around a computer-vision workload."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Self-Improving ML Harness authors" }]
+authors = [{ name = "Agentic Flywheel authors" }]
 
 # Core dependencies are intentionally lightweight so the harness and every
 # tiny-tier notebook run on a laptop (or this repo's CI) with no GPU.
