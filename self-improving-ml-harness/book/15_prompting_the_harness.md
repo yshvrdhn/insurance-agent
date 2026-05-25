@@ -1,7 +1,7 @@
 # Chapter 15 · Prompting the harness: program.md & results.tsv as memory
 
 > Companion notebook: [`notebooks/15_prompting_the_harness.ipynb`](../notebooks/15_prompting_the_harness.ipynb)
-> Tier: any · **not executed in CI**
+> Tier: any · **runs here** (assembles the prompt from program.md + results.tsv; no API call)
 
 ## The context window is the harness's working memory
 

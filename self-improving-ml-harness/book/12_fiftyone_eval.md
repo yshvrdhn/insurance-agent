@@ -1,7 +1,7 @@
 # Chapter 12 · Slice-based evaluation & mistakenness with FiftyOne
 
 > Companion notebook: [`notebooks/12_fiftyone_eval.ipynb`](../notebooks/12_fiftyone_eval.ipynb)
-> Tier: `bdd-small`+ · **not executed in CI** (needs the FiftyOne app + a Mongo backend)
+> Tier: `bdd-small`+ · **runs here on the tiny tier** (FiftyOne headless; numpy fallback if absent)
 
 ## From numbers to looking at your data
 

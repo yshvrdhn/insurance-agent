@@ -1,7 +1,7 @@
 # Chapter 10 · Checkpointing, fault tolerance & the budget at scale
 
 > Companion notebook: [`notebooks/10_checkpoint_budget.ipynb`](../notebooks/10_checkpoint_budget.ipynb)
-> Tier: `bdd-small`+ · **not executed in CI**
+> Tier: `bdd-small`+ · **runs here on the tiny tier** (Ray Train checkpointing, local mode)
 
 ## Why a self-improving system must checkpoint
 

@@ -1,7 +1,7 @@
 # Chapter 14 · The agent in the loop: wiring Claude to propose changes
 
 > Companion notebook: [`notebooks/14_agent_in_the_loop.ipynb`](../notebooks/14_agent_in_the_loop.ipynb)
-> Tier: any · **not executed in CI** (needs an Anthropic API key)
+> Tier: any · **runs here with a mock proposer** (swap in `ClaudeProposer` + an API key for the real agent)
 
 ## Replacing the stand-in proposer
 

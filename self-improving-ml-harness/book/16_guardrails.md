@@ -1,7 +1,7 @@
 # Chapter 16 · Guardrails: immutability & anti-reward-hacking
 
 > Companion notebook: [`notebooks/16_guardrails.ipynb`](../notebooks/16_guardrails.ipynb)
-> Tier: tiny (the guard demo runs anywhere; the threat model is general)
+> Tier: tiny · **runs here** (the immutability-guard demo executes end to end)
 
 ## The agent will hack the reward if you let it
 

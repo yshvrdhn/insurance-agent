@@ -1,7 +1,7 @@
 # Chapter 8 · From numpy to Daft pipelines
 
 > Companion notebook: [`notebooks/08_daft_pipelines.ipynb`](../notebooks/08_daft_pipelines.ipynb)
-> Tier: `bdd-small` · **not executed in CI** (laptop-scale, but heavier than the tiny tier)
+> Tier: `bdd-small`+ · **runs here on the tiny tier** (Daft; the same query scales to a cluster)
 
 ## Why graduate off numpy
 

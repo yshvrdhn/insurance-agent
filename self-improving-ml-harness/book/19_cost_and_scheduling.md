@@ -1,7 +1,7 @@
 # Chapter 19 · Cost, compute budgets & scheduling on a cluster
 
 > Companion notebook: [`notebooks/19_cost_and_scheduling.ipynb`](../notebooks/19_cost_and_scheduling.ipynb)
-> Tier: `bdd-full` · **not executed in CI** (Ray cluster, cloud billing)
+> Tier: `bdd-full` · **runs here on the tiny tier** (cost model over a real loop run)
 
 ## The budget is the whole game
 

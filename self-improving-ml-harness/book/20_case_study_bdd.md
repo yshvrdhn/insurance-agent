@@ -1,7 +1,7 @@
 # Chapter 20 · Running it for real on BDD100K: a case study
 
 > Companion notebook: [`notebooks/20_case_study_bdd.ipynb`](../notebooks/20_case_study_bdd.ipynb)
-> Tier: `bdd-full` · **not executed in CI** (real download, GPU cluster, API key)
+> Tier: `bdd-full` · **tiny-tier stand-in runs here** (the real run needs the BDD download + a cluster + an API key)
 
 ## Swapping the synthetic tier for the real thing
 

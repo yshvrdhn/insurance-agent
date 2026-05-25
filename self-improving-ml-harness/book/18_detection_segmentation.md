@@ -1,7 +1,7 @@
 # Chapter 18 · Beyond classification: detection & segmentation
 
 > Companion notebook: [`notebooks/18_detection_segmentation.ipynb`](../notebooks/18_detection_segmentation.ipynb)
-> Tier: `bdd-full` · **not executed in CI** (real BDD labels, GPU)
+> Tier: `bdd-full` · **toy worst-group IoU runs here** (real detection/segmentation needs BDD labels + a GPU)
 
 ## The contract generalizes; the score and slices change
 

@@ -1,7 +1,7 @@
 # Chapter 11 · Hyperparameter search with Ray Tune
 
 > Companion notebook: [`notebooks/11_ray_tune.ipynb`](../notebooks/11_ray_tune.ipynb)
-> Tier: `bdd-small`+ · **not executed in CI** (needs Ray Tune)
+> Tier: `bdd-small`+ · **runs here on the tiny tier** (Ray Tune ASHA, local mode)
 
 ## Two kinds of search
 

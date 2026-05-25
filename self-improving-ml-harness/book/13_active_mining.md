@@ -1,7 +1,7 @@
 # Chapter 13 · Embeddings, hardness & active mining at scale
 
 > Companion notebook: [`notebooks/13_active_mining.ipynb`](../notebooks/13_active_mining.ipynb)
-> Tier: `bdd-small`+ · **not executed in CI** (LanceDB ANN index + FiftyOne)
+> Tier: `bdd-small`+ · **runs here on the tiny tier** (LanceDB ANN + hardness ranking)
 
 ## Mining as a first-class data flywheel
 

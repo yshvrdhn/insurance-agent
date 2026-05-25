@@ -1,7 +1,7 @@
 # Chapter 17 · Multi-objective & Pareto fronts
 
 > Companion notebook: [`notebooks/17_multi_objective.ipynb`](../notebooks/17_multi_objective.ipynb)
-> Tier: `bdd-small`+ · **not executed in CI** (Ray Tune multi-objective)
+> Tier: `bdd-small`+ · **runs here on the tiny tier** (score-vs-latency Pareto front)
 
 ## One scalar isn't the whole story
 

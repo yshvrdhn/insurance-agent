@@ -78,6 +78,10 @@ python scripts/download_bdd.py --tier tiny
 # build + run the Chapter 1–7 notebooks (executes them end to end)
 python notebooks/build_notebooks.py
 
+# build + run the Chapter 8–20 notebooks (needs the scaling extras)
+uv pip install -e ".[ray,fiftyone]"
+python notebooks/build_scaling_notebooks.py
+
 # run the autonomous keep/revert loop
 bash scripts/run_loop.sh            # or: python -m harness.loop --iters 8
 

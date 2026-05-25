@@ -1,7 +1,7 @@
 # Chapter 9 · Distributed training with Ray Train
 
 > Companion notebook: [`notebooks/09_ray_train.ipynb`](../notebooks/09_ray_train.ipynb)
-> Tier: `bdd-small`+ · **not executed in CI** (needs a Ray runtime / multiple workers)
+> Tier: `bdd-small`+ · **runs here on the tiny tier** (Ray Train in local mode; change `num_workers`/`use_gpu` to scale)
 
 ## The training surface, distributed
 
